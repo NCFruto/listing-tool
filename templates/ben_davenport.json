@@ -1,0 +1,13 @@
+{
+  "agency_name": "Ben Davenport",
+  "caption_template": "🔹 JUST LISTED 🔹\n\n{address}\n\n{beds} 🛏️ | {baths} 🛁 | {car} 🚗\n\n{description_first_paragraph}\n\nSee more: \n\n📞 Ben Davenport | 0413 743 984",
+  "default_agents": [],
+  "notes": "",
+  "tags": [
+    "mcgrath"
+  ],
+  "folder": null,
+  "custom_placeholders": {},
+  "shortcut_code": "bendavenport",
+  "default_values": {}
+}

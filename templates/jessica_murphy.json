@@ -1,0 +1,12 @@
+{
+  "agency_name": "Jessica Murphy",
+  "caption_template": "Just Listed | {address} 🏡\n\n{features_line}\n\n{description_first_paragraph}\n\nSee more: \n\n{agent_1_name} | {agent_1_phone} \n{agent_2_name} | {agent_2_phone}\n",
+  "default_agents": [],
+  "notes": "",
+  "tags": [
+    "coastal"
+  ],
+  "folder": null,
+  "custom_placeholders": {},
+  "shortcut_code": "jessicamurphy"
+}

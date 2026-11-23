@@ -1,0 +1,13 @@
+{
+  "agency_name": "Gaby McEwan",
+  "caption_template": "Now Selling | {address} 🏡\n \n{features_line}\n \n{description_first_paragraph}\n \nSee more: mcgrath.homes\n \n{agent_1_name} | {agent_1_phone} \n{agent_2_name} | {agent_2_phone}",
+  "default_agents": [],
+  "notes": "",
+  "tags": [
+    "mcgrath"
+  ],
+  "folder": null,
+  "custom_placeholders": {},
+  "default_values": {},
+  "shortcut_code": "gabymcewan"
+}

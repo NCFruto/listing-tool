@@ -1,0 +1,34 @@
+services:
+  listingtool:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    # Chrome under Docker's default 64 MB /dev/shm can crash on real pages —
+    # this is the standard fix.
+    shm_size: "1gb"
+    volumes:
+      - ./data/listings:/app/listings
+      - ./data/templates:/app/templates
+    expose:
+      - "5000"
+    # Uncomment to hit the app directly on port 5000 while testing, without
+    # going through Caddy / HTTPS / a domain:
+    # ports:
+    #   - "5000:5000"
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - listingtool
+
+volumes:
+  caddy_data:
+  caddy_config:

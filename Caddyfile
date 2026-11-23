@@ -1,0 +1,10 @@
+# Free HTTPS with no domain purchase: sslip.io resolves
+# "209-38-94-2.sslip.io" straight to 209.38.94.2, so Caddy can issue a real
+# Let's Encrypt cert for it automatically. Needed for the browser's local
+# relay helper to work at all — Chrome's Private Network Access rules block
+# a plain-HTTP page from reaching localhost outright.
+# If you get a real domain later, swap the line below for it and re-deploy —
+# everything else stays the same.
+209-38-94-2.sslip.io {
+    reverse_proxy listingtool:5000
+}

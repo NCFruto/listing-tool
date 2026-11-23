@@ -1,0 +1,12 @@
+python/
+listings/
+debug/
+__pycache__/
+*.pyc
+*.zip
+*.log
+*.png
+debug_page.html
+setup_test_output.txt
+.git/
+.env

@@ -1,0 +1,21 @@
+# Bundled Python runtime (setup.bat downloads it)
+python/
+
+# Scraped listing data
+listings/*
+!listings/.gitkeep
+
+# Secrets: copy the .example files and fill in real values
+.env
+relay_config.json
+
+# Built distributables (attach to GitHub Releases instead)
+*.zip
+
+# Generated / local
+__pycache__/
+*.pyc
+*.log
+listingtool/update_log.txt
+debug/
+.claude/

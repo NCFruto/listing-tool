@@ -1,0 +1,11 @@
+{
+  "agency_name": "Heber De Carvalho",
+  "caption_template": "Just Listed | {address}\n\n{description_first_paragraph}\n\n{features_line}\n\nSee more: {short_url}\n\n{auction_date}\n\n{agent_1_name} | {agent_1_phone}",
+  "default_agents": [],
+  "notes": "",
+  "default_values": {
+    "auction_date": "Expressions Of Interest Close 26 May 12.00pm"
+  },
+  "tags": [],
+  "folder": null
+}

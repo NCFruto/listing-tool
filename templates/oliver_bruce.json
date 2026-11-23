@@ -1,0 +1,13 @@
+{
+  "agency_name": "Oliver Bruce",
+  "caption_template": "📍 {address}\n\n{beds} 🛏 | {baths} 🛁 | {cars} 🚘\n\n{description_first_paragraph}\n\nFor any further information regarding this property or to view the Statement of Information, please view the link below: \n\n{short_url}\n\n{agent_1_name} | {agent_1_phone}\n{agent_2_name} | {agent_2_phone}",
+  "default_agents": [],
+  "notes": "",
+  "tags": [
+    "marshall white"
+  ],
+  "folder": null,
+  "custom_placeholders": {},
+  "shortcut_code": "oliverbruce",
+  "default_values": {}
+}

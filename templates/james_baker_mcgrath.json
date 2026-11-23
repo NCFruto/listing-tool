@@ -1,0 +1,11 @@
+{
+  "agency_name": "James Baker - McGrath",
+  "caption_template": "Just Listed | {address}\n\n{features_line}\n\nPrice Guide: {price}\n\n{description_first_paragraph}\n\nSee more: {short_url}\n\n{agent_1_name} | {agent_1_phone}\n{agent_2_name} | {agent_2_phone}",
+  "default_agents": [],
+  "notes": "",
+  "default_values": {},
+  "tags": [],
+  "folder": null,
+  "custom_placeholders": {},
+  "shortcut_code": null
+}

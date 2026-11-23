@@ -1,0 +1,4 @@
+# Extra deps for the hosted (Docker/VPS) deployment only.
+# Not used by the local Windows zip install — see requirements.txt for that.
+-r requirements.txt
+gunicorn>=22.0,<23.0
